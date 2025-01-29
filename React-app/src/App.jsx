@@ -6,12 +6,14 @@ import './App.css';
 import Header from './Component/Day2/Header';
 import Footer from './Component/Day2/Footer';
 import Form from './Component/Form';
+import Home from './Component/Home';
 
 function App() {
   const [count, setCount] = useState(0)
   return (
     <div>
       <Header/>
+      <Home/>
       <Form/>
       {/* <FetchApi/> */}
       {/* <Day3/> */}
