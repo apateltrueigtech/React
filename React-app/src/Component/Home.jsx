@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-<div className="min-h-screen bg-gray-700 text-gray-100 flex items-center justify-center">
+<div className="min-h-screen bg-gray-700 text-gray-100  flex flex-col items-center justify-center">
     <div>
     <h1 className="text-4xl font-bold flex-gap-3.5">Dive Into Endless Fun with Social Casino Games Today</h1>
     <p className='text-light to-blue-400'>Embark on an unforgettable adventure where excitement knows no limits! With a vast
@@ -13,13 +13,15 @@ const Home = () => {
     something here for everyone. Join us today and dive into a world of fun, excitement,
     and endless possibilities. Your ultimate gaming journey starts now—play for the joy of it!</p>
     </div>
-    <div>
+    <div >
     <button className="w-50 h-20 bg-blue-500 text-white font-semibold text-center rounded-lg shadow-lg hover:bg-blue-600 focus:ring-2 focus:ring-blue-300 text-2xl" >
     Start Playing
     </button>
     <img src="https://socialgameshouse.com/assets/Image/about.png"/>
     <div>
-    <h2 className="text-4xl font-bold flex-gap-3.5">All Our Featured Games</h2>
+    <h2 className="text-4xl font-bold flex flex-row gap-3.5">All Our Featured Games</h2>
+    <div className='grid grid-cols-3'>      
+
     <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
     <div className="relative rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
     <img src="https://socialgameshouse.com/assets/Image/Image%202.png" alt="Frozen Gems" className="w-full h-80 object-cover"/>
@@ -28,6 +30,7 @@ const Home = () => {
     </div>
     </div>
     </div>
+
     <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
      <div className="relative rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
     <img src="https://socialgameshouse.com/assets/Image/Image%204.png" alt="Frozen Gems" className="w-full h-80 object-cover"/>
@@ -36,6 +39,7 @@ const Home = () => {
     </div>
     </div>
   </div>
+  
   <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
   <div className="relative rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
     <img src="https://socialgameshouse.com/assets/Image/Image%205.png" alt="Frozen Gems" className="w-full h-80 object-cover"/>
@@ -46,7 +50,7 @@ const Home = () => {
   </div>
   <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
   <div className="relative rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-    <img src="https://socialgameshouse.com/assets/Image/Image%206.png" alt="Frozen Gems" className="w-full h-80 object-cover"/>
+    <img src="https://socialgameshouse.com/assets/Image/Image%206.png" alt="CLASH OF CHAMELOT"className="w-full 80 object -over"/>
     <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black-50 p-6 flex flex-col justify-end">
       <h3 className="text-white font-bold text-xl">CLASH OF CHAMELOT</h3>
       </div>
@@ -68,13 +72,13 @@ const Home = () => {
       </div>
     </div>
   </div>
-
+</div>
 
 
     </div>
     </div>
     <h2 className="text-4xl font-bold flex-gap-3.5">Why Choose Us ?</h2>
-    <div className="max-w-sm mx-auto bg-yellow border border-gray-200 rounded-lg shadow-lg     flex items-center justify-between">
+    <div className="max-w-sm mx-auto bg-yellow border border-gray-200 rounded-lg shadow-lg flex items-center justify-between">
     <div className="p-4 ">
     <h5 className="text-xl font-bold text-gray-800 mb-2">Endless Free Fun</h5>
     <p className="text-gray-600 text-sm mb-4">
