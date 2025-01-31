@@ -19,7 +19,7 @@ const Form = () => {
         }
     }
     return (
-            
+        <div className="p-6 bg-gray-800 text-center">    
         <div className="w-full max-w-md p-8 bg-white shadow-lg rounded-lg">
         <h2 className="text-2xl font-bold text-gray-700 text-center">Sign Up</h2>
         <form className="mt-4 space-y-4"onSubmit ={handleSubmit}>
@@ -47,7 +47,7 @@ const Form = () => {
         </form>
         <p className="mt-4 text-sm text-gray-600 text-center">Already have an account? <a href="#" className="text-blue-500">Login</a></p>
     </div>
-
+</div>
    
   )
 }

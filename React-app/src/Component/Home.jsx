@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from './Day2/Footer'
 const Home = () => {
   return (
     <>
@@ -18,64 +18,6 @@ const Home = () => {
     Start Playing
     </button>
     <img src="https://socialgameshouse.com/assets/Image/about.png"/>
-    <div>
-    <h2 className="text-4xl font-bold flex flex-row gap-3.5">All Our Featured Games</h2>
-    <div className='grid grid-cols-3'>      
-
-    <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-    <div className="relative rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-    <img src="https://socialgameshouse.com/assets/Image/Image%202.png" alt="Frozen Gems" className="w-full h-80 object-cover"/>
-    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black-50 p-6 flex flex-col justify-end">
-    <h3 className="text-white font-bold text-xl">FROZEN GEMS</h3>
-    </div>
-    </div>
-    </div>
-
-    <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-     <div className="relative rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-    <img src="https://socialgameshouse.com/assets/Image/Image%204.png" alt="Frozen Gems" className="w-full h-80 object-cover"/>
-    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black-50 p-6 flex flex-col justify-end">
-    <h3 className="text-white font-bold text-xl">AGENT OF HEARTS</h3>
-    </div>
-    </div>
-  </div>
-  
-  <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-  <div className="relative rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-    <img src="https://socialgameshouse.com/assets/Image/Image%205.png" alt="Frozen Gems" className="w-full h-80 object-cover"/>
-    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black-50 p-6 flex flex-col justify-end">
-      <h3 className="text-white font-bold text-xl">SWEET ALCHEMY</h3>
-      </div>
-    </div>
-  </div>
-  <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-  <div className="relative rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-    <img src="https://socialgameshouse.com/assets/Image/Image%206.png" alt="CLASH OF CHAMELOT"className="w-full 80 object -over"/>
-    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black-50 p-6 flex flex-col justify-end">
-      <h3 className="text-white font-bold text-xl">CLASH OF CHAMELOT</h3>
-      </div>
-    </div>
-  </div>
-  <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-  <div className="relative rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-    <img src="https://socialgameshouse.com/assets/Image/Image%203.png" alt="Frozen Gems" className="w-full h-80 object-cover"/>
-    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black-50 p-6 flex flex-col justify-end">
-      <h3 className="text-white font-bold text-xl">CHAMPIONS OF MITHRUNE</h3>
-      </div>
-    </div>
-  </div>
-  <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8">
-  <div className="relative rounded-lg overflow-hidden shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-    <img src="https://socialgameshouse.com/assets/Image/Image%201.png" alt="Frozen Gems" className="w-full h-80 object-cover"/>
-    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black-50 p-6 flex flex-col justify-end">
-      <h3 className="text-white font-bold text-xl">BULL IN CHINA SHOP</h3>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-    </div>
     </div>
     <h2 className="text-4xl font-bold flex-gap-3.5">Why Choose Us ?</h2>
     <div className="max-w-sm mx-auto bg-yellow border border-gray-200 rounded-lg shadow-lg flex items-center justify-between">
@@ -102,15 +44,12 @@ const Home = () => {
     </p>
     </div>
     </div>
-    <div>
-    <h2 className="text-4xl font-bold flex-gap-3.5">Disclaimer</h2>
-    <p>Our platform is designed solely for entertainment, with no real money rewards. All games are completely free to play, and we are not responsible for any content. If you encounter inappropriate material, please contact us immediately.
-    We prioritize creating a safe, enjoyable experience and promote responsible play. Please note, participation on our platform has no impact on future real money gaming or winnings. Users must be 18 or older to participate.</p>
-    <img src="https://socialgameshouse.com/assets/Image/Disclaimer.png"/>
+    <Footer/>
 </div>
-</div>
+
     </>    
   )
 }
+
 
 export default Home

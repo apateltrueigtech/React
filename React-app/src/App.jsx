@@ -5,22 +5,29 @@ import FetchApi from './Component/Day4/FetchApi'
 import './App.css';
 import Header from './Component/Day2/Header';
 import Footer from './Component/Day2/Footer';
-import Form from './Component/Form';
+import Register from './Component/Register';
 import Home from './Component/Home';
-
+import Explore from './Component/Explore';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
   return (
-    <div>
+    <>
+     
+      <Router>
       <Header/>
-      <Home/>
-      <Form/>
+      <Routes>
+      <Route path = '/' element={<Home/>}/>
+      <Route path ='/Explore' element={<Explore/>}/>
+      <Route path ='/Register' element={<Register/>}/>
+      </Routes>
+      {/* <Home/> */}
       {/* <FetchApi/> */}
       {/* <Day3/> */}
       {/* <Day4/> */}
-      <Footer/>
-         
-    </div>
+      
+      </Router>
+    </>
   );
 }
 
