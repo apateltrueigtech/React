@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from './Day2/Footer'
+import Footer from './Footer'
 const Home = () => {
   return (
     <>
