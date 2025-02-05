@@ -9,6 +9,7 @@ import Register from './Component/Register';
 import Home from './Component/Home';
 import Explore from './Component/Explore';
 import {BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { toggleTheme } from './Component/Theme/ThemeSlice';
 function App() {
   // const [count, setCount] = useState(0)
   return (

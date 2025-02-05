@@ -14,39 +14,35 @@ const Home = () => {
     and endless possibilities. Your ultimate gaming journey starts now—play for the joy of it!</p>
     </div>
     <div >
-    <button className="w-50 h-20 bg-blue-500 text-white font-semibold text-center rounded-lg shadow-lg hover:bg-blue-600 focus:ring-2 focus:ring-blue-300 text-2xl" >
+    <button className="w-40 h-20 bg-blue-500 text-white font-semibold text-center rounded-lg shadow-lg hover:bg-blue-600 focus:ring-2 focus:ring-blue-300 text-2xl" >
     Start Playing
     </button>
-    <img src="https://socialgameshouse.com/assets/Image/about.png"/>
+    <img src="https://socialgameshouse.com/assets/Image/about.png" className ="w-150 h-150"/>
     </div>
-    <h2 className="text-4xl font-bold flex-gap-3.5">Why Choose Us ?</h2>
-    <div className="max-w-sm mx-auto bg-yellow border border-gray-200 rounded-lg shadow-lg flex items-center justify-between">
-    <div className="p-4 ">
-    <h5 className="text-xl font-bold text-gray-800 mb-2">Endless Free Fun</h5>
-    <p className="text-gray-600 text-sm mb-4">
-    Enjoy a vast selection of social casino games—absolutely free! Play as much as you want, whenever you want, with no strings attached.
-    </p>
-    </div>
-    </div>
-    <div className="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow-lg">
-    <div className="p-4">
-    <h5 className="text-xl font-bold text-gray-800 mb-2">Wide Variety of Games</h5>
-    <p className="text-gray-600 text-sm mb-4">
-    We offer a diverse collection of games to suit every player’s taste. From novice to expert, there’s something for everyone to enjoy!
-    </p>
-    </div>
-    </div>
-    <div className="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow-lg">
-    <div className="p-4">
-    <h5 className="text-xl font-bold text-gray-800 mb-2">Play Anytime, Anywhere</h5>
-    <p className="text-gray-600 text-sm mb-4">
+    
+    <h2 className="text-4xl font-bold flex-gap-3.5">Why Choose Us ?</h2><br></br>
+<div className="flex flex-wrap justify-center gap-4">
+<div className="bg-yellow-300 rounded-lg p-6 w-80 shadow-md">
+  <h3 className="text-xl font-semibold mb-2">Endless Free Fun</h3>
+  <p className="text-gray-800">Enjoy a vast selection of social casino games—absolutely free! Play as much as you want, whenever you want, with no strings attached.</p>
+</div>
+
+<div className="bg-yellow-300 rounded-lg p-6 w-80 shadow-md">
+  <h3 className="text-xl font-semibold mb-2">Wide Variety of Games</h3>
+  <p className="text-gray-800">We offer a diverse collection of games to suit every players taste. From novice to expert, there's something for everyone to enjoy!</p>
+</div>
+
+<div className="bg-yellow-300 rounded-lg p-6 w-80 shadow-md">
+  <h3 className="text-xl font-semibold mb-2">Play Anytime, Anywhere</h3>
+  <p className="text-gray-800">Our platform is designed for mobile devices, allowing you to play on the go. Wherever you are, you can experience the fun whenever the mood strikes.</p>
+</div>
+    <p className="text-gray-100 text-sm mb-4">
+    <br></br>
     Our platform is designed for easy access, allowing you to play on any device. Wherever you are, you can dive into the fun whenever the mood strikes.
     </p>
     </div>
     </div>
     <Footer/>
-</div>
-
     </>    
   )
 }
